@@ -21,7 +21,7 @@ function math_block() {
 	var text = document.querySelector('.math');
 	// console.log (first);
 	res = eval(first);
-	text.innerHTML = first + ' = ' + res; 
+	text.innerHTML = first + ' ='; 
 }
 
 math_block();
