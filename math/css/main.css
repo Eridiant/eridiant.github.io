@@ -1,0 +1,17 @@
+html, body, ul, li {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.answer {
+	color: #000;
+}
