@@ -4,7 +4,7 @@ function math_gen_cl(x) {
 	return Math.ceil(Math.random()*x);
 }
 function math_gen_13() {
-	return Math.floor(Math.random()*14);
+	return Math.ceil(Math.random()*13);
 }
 
 var res;
