@@ -1,0 +1,50 @@
+
+@font-face {
+    font-family: 'pf_light';
+    src: url('../fonts/pfdinlight/pfdindisplaypro-light-webfont.eot');
+    src: url('../fonts/pfdinlight/pfdindisplaypro-light-webfont.eot') format('embedded-opentype'),
+    url('../fonts/pfdinlight/pfdindisplaypro-light-webfont.woff2') format('woff2'),
+    url('../fonts/pfdinlight/pfdindisplaypro-light-webfont.woff') format('woff'),
+    url('../fonts/pfdinlight/pfdindisplaypro-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'pf_medium';
+    src: url('../fonts/pfdinmedium/pfdindisplaypro-med-webfont.eot');
+    src: url('../fonts/pfdinmedium/pfdindisplaypro-med-webfont.eot') format('embedded-opentype'),
+    url('../fonts/pfdinmedium/pfdindisplaypro-med-webfont.woff2') format('woff2'),
+    url('../fonts/pfdinmedium/pfdindisplaypro-med-webfont.woff') format('woff'),
+    url('../fonts/pfdinmedium/pfdindisplaypro-med-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'pf_litalic';
+    src: url('../fonts/pfdinlightit/pfdindisplaypro-lightital-webfont.eot');
+    src: url('../fonts/pfdinlightit/pfdindisplaypro-lightital-webfont.eot') format('embedded-opentype'),
+    url('../fonts/pfdinlightit/pfdindisplaypro-lightital-webfont.woff2') format('woff2'),
+    url('../fonts/pfdinlightit/pfdindisplaypro-lightital-webfont.woff') format('woff'),
+    url('../fonts/pfdinlightit/pfdindisplaypro-lightital-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'pf_regular';
+    src: url('../fonts/pfdinreg/pfdindisplaypro-reg-webfont.eot');
+    src: url('../fonts/pfdinreg/pfdindisplaypro-reg-webfont.eot') format('embedded-opentype'),
+    url('../fonts/pfdinreg/pfdindisplaypro-reg-webfont.woff2') format('woff2'),
+    url('../fonts/pfdinreg/pfdindisplaypro-reg-webfont.woff') format('woff'),
+    url('../fonts/pfdinreg/pfdindisplaypro-reg-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'pf_bold';
+    src: url('../fonts/bold/pfdindisplaypro-bold-webfont.eot');
+    src: url('../fonts/bold/pfdindisplaypro-bold-webfont.eot') format('embedded-opentype'),
+    url('../fonts/bold/pfdindisplaypro-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
