@@ -12,7 +12,7 @@
 	<meta name="viewport" content="width=device-width">
 
 	<link rel="icon" href="img/favicon.png">
-	<meta property="og:image" content="img/@1x/preview.jpg">
+	<meta property="og:image" content="img/preview.jpg">
 	<link rel="stylesheet" href="css/jquery.arcticmodal-0.3.css">
 
 
@@ -23,7 +23,21 @@
 </head>
 
 <body>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
+   ym(50869325, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/50869325" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
 	<!-- Custom HTML / Remove before use -->
 	<div class="nav">
 		<div class="container">
@@ -48,19 +62,21 @@
 			</div>
 		</div>
 	</div>
-	<div class="container">
-		<div class="header">
-			<div class="discount">
-				<div class="discount-text WallsRough">
+	<section id="first-screen">
+		<div class="container">
+			<div class="header">
+				<div class="header-text WallsRough">
 					Секрет кавказского долголетия
 				</div>
-				<div class="discount-desk">
-					<p class="discount-desk-text">
-						Скидка 20% на&nbsp;всю линейку паст Урбеч
-					</p>
-					<p class="discount-desk-for WallsRough">
-						Для новых покупателей
-					</p>
+				<div class="header-discount">
+					<div class="header-discount-desk">
+						<div class="header-discount-desk-text fsize">
+							Скидка 20% на&nbsp;всю линейку паст Урбеч
+						</div>
+						<div class="header-discount-desk-for fsize1 WallsRough">
+							Для новых покупателей
+						</div>
+					</div>
 				</div>
 				<div class="btn linkMail">
 					<button>
@@ -68,45 +84,47 @@
 					</button>
 				</div>
 			</div>
-			<div class="wrapper">
-				<div class="pic">
-					<!-- <div class="pic-inner"> -->
-					<img src="/img/circle-1.png" alt="" class="pic-inner-1">
-					<img src="/img/circle-2.png" alt="" class="pic-inner-2">
-					<div data-speed="15" class="pic-inner-3 paral">
-						<img src="/img/nuts-1.png" alt="" class="">
+		</div>
+		<div class="slider">
+			<div class="slider-wrap">
+				<div class="container">
+					<div class="slider-wrap-inner">
+						<div class="slider-wrap-inner-text">
+							<div class="slider-wrap-inner-text-item show">Урбеч из&#160;орехов 10&#160;видов</div>
+							<div class="slider-wrap-inner-text-item">Урбеч из&#160;семян 20&#160;видов</div>
+							<div class="slider-wrap-inner-text-item">Урбеч из&#160;орехов 10&#160;видов</div>
+						</div>
+						<div class="slider-wrap-inner-img">
+							<img src="img/nuts1.png" alt="" class="slider-wrap-inner-img-pic showed">
+							<img src="img/nuts2.png" alt="" class="slider-wrap-inner-img-pic">
+							<img src="img/nuts3.png" alt="" class="slider-wrap-inner-img-pic">
+						</div>
+						<div class="slider-wrap-inner-scrl">
+							<img src="img/scrl.png" alt="">
+						</div>
 					</div>
-					<div data-speed="40" class="pic-inner-4 paral">
-						<img src="/img/nuts-2.png" alt="" class="">
-					</div>
-					<!-- </div> -->
 				</div>
-				<div class="picmob">
+				<div class="slider-wrap-parallax-1 off">
 				</div>
-				<img src="/img/nuts-mob.png" alt="" class="picmob1">
-				<img src="/img/nuts-mob-1.png" alt="" class="picmob2">
-				<div class="slider">
-					<div class="slider-text">
-						<div class="slider-text-item show">Урбеч из&#160;орехов 10&#160;видов</div>
-						<div class="slider-text-item">Урбеч из&#160;семян 20&#160;видов</div>
-						<div class="slider-text-item">Урбеч из&#160;орехов 10&#160;видов</div>
-					</div>
-					<div class="slider-nuts">
-						<img src="/img/nuts1.png" alt="" class="slider-nuts-img showed">
-						<img src="/img/nuts2.png" alt="" class="slider-nuts-img">
-						<img src="/img/nuts3.png" alt="" class="slider-nuts-img">
-					</div>
-					<div class="slider-img">
-						<!-- <a href="#" class="slider-btn"><img src="/img/scrl.svg" alt=""></a> -->
-						<button class="slider-btn"><img src="/img/scrl.svg" alt=""></button>
-					</div>
+				<div class="slider-wrap-parallax-2 off">
+				</div>
+				<div data-speed="15" class="slider-wrap-parallax-3 paral off">
+				</div>
+				<div data-speed="40" class="slider-wrap-parallax-4 paral off">
+				</div>
+				<div class="slider-wrap-parallax-5 off1">
+				</div>
+				<div class="slider-wrap-parallax-6 off2">
 				</div>
 			</div>
 		</div>
+	</section>
 
-	</div>
+<!-- 
+	<section id="second-screen">
+	</section> -->
 
-	<section>
+	<section id="second-screen">
 		<div class="container">
 			<div class="benefit">
 				<div class="benefit-items">
@@ -149,11 +167,15 @@
 			</div>
 		</div>
 	</section>
+
+
+
+
 	<footer>
 		<div class="container">
 			<div class="contact">
 				<div class="contact-left">
-					<p>
+					<p class="contact-p">
 						ООО ФАН ЭНД ФУД
 						<br>
 						Адрес:
@@ -162,28 +184,28 @@
 						<br>
 						ул. Луганская 57А оф. 203
 					</p>
-					<p class="dnone">
+					<p class="dnone contact-p">
 						Все права защищены
 					</p>
 				</div>
 				<div class="contact-right">
 					<p>
-						<a class="nav-contacts-mail" href="mailto:zakaz@funandfood.ru">
+						<a class="nav-contacts-mail contact-p" href="mailto:zakaz@funandfood.ru">
 							zakaz@funandfood.ru
 						</a>
-						<a class="nav-contacts-tel" href="tel:+79642567074">
+						<a class="nav-contacts-tel contact-p" href="tel:+79642567074">
 							+7 (964) 256-70-74
 						</a>
-						<a class="nav-contacts-tel" href="tel:+78332747074">
+						<a class="nav-contacts-tel contact-p" href="tel:+78332747074">
 							+7 (8332) 74-70-74
 						</a>
 					</p>
-					<p>
+					<p class="contact-p">
 						ИНН 4345459554
 						<br>
 						ОГРН 1174350000065
 					</p>
-					<p class="dblock">
+					<p class="dblock contact-p">
 						Все права защищены
 					</p>
 				</div>
@@ -192,6 +214,7 @@
 	</footer>
 
 <div style="display: none;">
+<!-- <div> -->
 	<div class="box-modal" id="ModalCall">
 		<!-- <div class="box-modal_close arcticmodal-close">закрыть</div> -->
 		<div class="box-modal-header">
