@@ -1,1 +1,1 @@
-# eridiant@mail.ru
+# eridiant
